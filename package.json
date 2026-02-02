@@ -1,0 +1,25 @@
+{
+  "name": "prd-to-issues",
+  "version": "1.0.0",
+  "description": "Turn PRD markdown files into GitHub issues automatically",
+  "main": "dist/index.js",
+  "bin": {
+    "prd-to-issues": "./dist/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js"
+  },
+  "keywords": ["prd", "github", "issues", "markdown", "cli", "product", "requirements"],
+  "author": "Arephan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Arephan/prd-to-issues"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
